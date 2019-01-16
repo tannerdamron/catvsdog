@@ -1,0 +1,78 @@
+body {
+
+}
+
+li {
+  list-style-position: inside;
+  font
+}
+.center {
+  text-align: center;
+}
+.tab {
+  margin-left: 20px;
+}
+
+/*### Banner ###*/
+.jumbotron {
+  background-image: url("../img/catdog.jpg");
+  text-align: center;
+  background-size: cover;
+}
+
+/*### Main Area ###*/
+button {
+  display: block;
+  width: 170px;
+  height: 100px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 7%;
+  border-radius: 6%;
+  font-weight: bolder;
+}
+
+button#result {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 5px solid darkgrey;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+}
+
+button#dogwon {
+  display: none;
+  margin: auto;
+  text-align: center;
+  border: 5px solid darkgrey;
+  background-image: url("../img/dogwin.jpg");
+  background-size: 300px 190px;
+  background-position: center;
+  width: 300px;
+  height: 200px;
+}
+
+button#catwon {
+  display: none;
+  margin: auto;
+  text-align: center;
+  border: 5px solid darkgrey;
+  background-image: url("../img/catwin.jpg");
+  background-size: 300px 250px;
+  background-position: center;
+  width: 300px;
+  height: 200px;
+}
+
+#catbutton {
+  background-image: url("../img/catattack.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+#dogbutton {
+  background-image: url("../img/dogattack.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
